@@ -6,7 +6,7 @@
         async function getFile() {
             let myPromise = new Promise(function (myResolve) {
                 let req = new XMLHttpRequest;
-                let req.open('GET' 'draw-image.html' )
+                 req.open('GET', 'draw-image.html')
             req.onload = function () {
                 if (req.status == 200) {
                     resolve(req.response)
@@ -24,4 +24,4 @@
     </script>
 </body>
 
-</html>
+</html>s
