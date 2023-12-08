@@ -1,0 +1,17 @@
+<html>
+
+<body>
+    <button id="myBtn">Try it</button>
+    <p id="demo"></p>
+    <script>
+        let p1 = 7;
+        let p2 = 5;
+        let element = document.getElementById('myBtn')
+        element.addEventListener('click', function () { myFunction(p1, p2); });
+        function  myFunction(a, b) {
+            document.getElementById('demo').innerHTML=a*b;  
+        }
+    </script>
+</body>
+
+</html>

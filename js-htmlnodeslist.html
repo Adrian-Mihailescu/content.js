@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <p>This is a paragraph</p>
+        <p>This is another paragraph</p>
+        <p>This is the best paragraph</p>
+        <p id="demo"></p>
+        <script>
+            const myNodeList=document.querySelectorAll('p');
+            document.getElementById('demo').innerHTML='The innerHTML of the second paragraph is: ' + myNodeList[1].innerHTML;
+        </script>
+    </body>
+</html>
